@@ -1,0 +1,41 @@
+*{
+    font-family: "Sofia", sans-serif;
+}
+body{
+    background-color: black;
+}
+.cont{
+    background-image: url(age_prediction.jpg);
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+}
+#getAge{
+    margin-top: 10px;
+}
+h1, p{
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    #yourName{
+        width: 100%;
+    }
+    p{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 120%;
+        font-weight: 400;
+    }
+    .cont{
+        width: 90%
+    }
+    #getAge{
+        width: 70%
+    }
+}
+@media screen and (max-width: 1050px){
+    .cont{
+        margin-top: 50px;
+    }
+}
